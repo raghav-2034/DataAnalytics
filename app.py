@@ -763,7 +763,7 @@ st.set_page_config(layout="wide")  # Full-width layout
 st.title("Placement Data Analytics Dashboard")
 
 # Read CSV
-df = pd.read_csv("/Users/raghav/Desktop/DataAnalytics/NNRG_Placement_2018_2025.csv")
+df = pd.read_csv("NNRG_Placement_2018_2025.csv")
 
 # --- Summary Cards ---
 total_students = len(df)
